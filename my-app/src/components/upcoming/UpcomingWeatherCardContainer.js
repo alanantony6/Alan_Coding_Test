@@ -30,7 +30,7 @@ class UpcomingWeatherCardContainer extends React.Component {
 
   getWeather = () => {
     // Fetch OpenWeather API Details
-    const openWeatherKey = "faa3b9d358ff0e05601c8ec6ea446ef5";
+    const openWeatherKey = "7e4780fbb35b9a856e06b14964223403";
     const weatherUrl = "https://api.openweathermap.org/data/2.5/forecast";
     const urlToFetch = `${weatherUrl}?&q=${
       this.state.location
