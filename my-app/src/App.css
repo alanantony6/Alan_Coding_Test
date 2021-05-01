@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html{
+  background-color:whitesmoke;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto, Lato, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  
+}
+
+h1,
+h2 {
+  color: #444054;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+header h1{
+  display: inline;
+  flex-grow: 1;
+}
+.search{
+  background-color: black;
+  color: white;
+  padding: 11px;
+  border-radius: 5px;
+}
+.search:hover{
+  cursor: pointer;
+  padding: 12px;
+}
+
+.search-input {
+  padding: 1em;
+  border: none;
+  color: #7d6b91;
+  font-weight: 800;
+}
+
+.search-input::placeholder,
+datalist option {
+  color: #7d6b91;
+  font-weight: 600;
+}
+
+.search-input:focus {
+  outline: 1px solid #7d6b91;
+}
+
+.search-input,
+.search-button {
+  box-shadow: 0px 0px 10px #cfc9d7;
+}
+
+.search-button {
+  padding: 0.8em;
+  cursor: pointer;
+  border: none;
+  background: rgb(0, 169, 203);
+  background: linear-gradient(280deg, #00a9cb 38%, #00d4ff 100%);
+}
+
+.search-button .svg-icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.search-button .svg-icon path {
+  fill: white;
+}
+
+.weather-widget{
+  margin: 20px auto;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  border : 1px solid black;
+  padding: 10px;
+  box-shadow: 0 -0.5px 2.2px rgba(0, 0, 0, 0.02),
+    0 0px 5.3px rgba(0, 0, 0, 0.028), 0 2.2px 10px rgba(0, 0, 0, 0.035),
+    0 7.4px 17.9px rgba(0, 0, 0, 0.042), 0 21.3px 33.4px rgba(0, 0, 0, 0.05)
+}
+
+.widget-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4em;
+  color: #5d536b;
+}
+
+.widget-header h2{
+  margin-left : 45px;
+}
+
+.current-weather {
+  flex-grow: 1;
+}
+
+.upcoming-weather-cards {
+  width: 490px;
+  display: flex;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.upcoming-weather-card {
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+.day-of-week {
+  color: #5d536b;
+  margin-bottom: 0px;
+}
+
+.temps {
+  display: flex;
+  justify-content: center;
+}
+
+.high-temp,
+.low-temp {
+  margin-top: 0px;
+  padding: 0 0.4em;
+  font-size: 0.9em;
+}
+
+.low-temp {
+  color: #5d536b;
+}
+
+.todays-forecast {
+  text-align: center;
+  color: #444054;
+  font-size: 0.9em;
+  padding: 0 0.3em;
+}

@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.current-main-icon{
+    margin-left: 80px;
+}
+.todays-forecast{
+    margin-top: 2px;
+    margin-left: 0px;
+    font-size: small;
+    font-weight: 100;
+}
+.other-weather-details{
+    font-size: small;
+    text-align: center;
+    font-weight: 100;
+}
+.metric-selector{
+    margin-left: 85px;
+    margin-bottom: 5px;
+}
